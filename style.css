@@ -6,8 +6,6 @@
   outline: none;
   text-decoration: none;
   font-family: "Work Sans", sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 html {
@@ -83,6 +81,10 @@ body {
 }
 
 @media (max-width: 500px) {
+*{
+overflow-x: hidden;
+  overflow-y: hidden;
+  }
   .section-wrapper {
     height: 40rem;
     width: 40rem;
